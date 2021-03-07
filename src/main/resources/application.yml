@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://ccs.ccwykngj51ua.ap-northeast-2.rds.amazonaws.com:3306/ccs
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: admin
+    password: golotto00#
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
